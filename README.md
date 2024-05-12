@@ -1,7 +1,9 @@
 # OpenWrt
 
-2024-05-12 基于单个机器Seewo SV21，修改相关文件
-1.去除多余插件，添加Openclash，添加Argon皮肤；
+2024-05-12 基于单个机器Seewo SV21，修改相关文件。
+
+1.去除多余插件，添加Openclash，添加Argon皮肤；仅保留插件：Openclash、DDNS、Vsftpd、autoreboot、tyyd
+
 2.去除其他机器型号支持；
 
 View Chinese description | [查看中文说明](README.cn.md)
