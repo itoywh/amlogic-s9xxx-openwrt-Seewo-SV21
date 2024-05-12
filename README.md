@@ -2,6 +2,8 @@
 
 2024-05-12 基于单个机器Seewo SV21，修改相关文件。
 
+制作使用方法：https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/documents/README.cn.md
+
 1.去除多余插件，添加Openclash，添加Argon皮肤；仅保留插件：晶晨宝盒、Openclash、动态DNS、FTP服务器、定时重启、磁盘管理，满足作为旁路由并作为小型NAS的需求
 
 2.去除其他机器型号支持；
