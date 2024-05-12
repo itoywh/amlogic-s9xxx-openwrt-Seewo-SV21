@@ -1,5 +1,9 @@
 # OpenWrt
 
+2024-05-12 基于单个机器Seewo SV21，修改相关文件
+1.去除多余插件，添加Openclash，添加Argon皮肤；
+2.去除其他机器型号支持；
+
 View Chinese description | [查看中文说明](README.cn.md)
 
 The [OpenWrt](https://openwrt.org/) project is a Linux router operating system for embedded devices. OpenWrt is not a single and immutable firmware, but rather provides a fully writable filesystem with package management capabilities, allowing you to freely select the required software packages to customize the router system. For developers, OpenWrt is a framework that allows application development without having to build a complete firmware around it; for ordinary users, it means having the capability for complete customization, and the ability to use the device in unexpected ways. It has over 3000+ standardized application software packages and extensive third-party plugin support, allowing you to easily apply them to various supported devices. Now you can replace the Android TV system on your TV box with the OpenWrt system, turning it into a powerful router.
