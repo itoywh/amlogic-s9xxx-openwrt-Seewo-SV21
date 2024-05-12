@@ -8,8 +8,6 @@ name: Build OpenWrt
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron: 30 03 * * *
     inputs:
       source_branch:
         description: "Select the source branch"
