@@ -34,12 +34,14 @@ git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 #
 # 添加 OpenAppFilter 应用过滤插件
 # git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-# 添加皮肤
-rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+# 添加皮肤（失效，2024-05-12注释）
+# rm -rf package/lean/luci-theme-argon
+# git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 # 添加 OpenClash
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
