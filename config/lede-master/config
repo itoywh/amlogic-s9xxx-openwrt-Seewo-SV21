@@ -108,19 +108,20 @@ CONFIG_DEFAULT_libgcc=y
 CONFIG_DEFAULT_libustream-openssl=y
 CONFIG_DEFAULT_logd=y
 CONFIG_DEFAULT_luci=y
-CONFIG_DEFAULT_luci-app-accesscontrol=y
-CONFIG_DEFAULT_luci-app-arpbind=y
+# CONFIG_DEFAULT_luci-app-accesscontrol is not set
+# CONFIG_DEFAULT_luci-app-arpbind is not set
 CONFIG_DEFAULT_luci-app-autoreboot=y
 CONFIG_DEFAULT_luci-app-ddns=y
 CONFIG_DEFAULT_luci-app-filetransfer=y
-CONFIG_DEFAULT_luci-app-nlbwmon=y
+# CONFIG_DEFAULT_luci-app-nlbwmon is not set
 CONFIG_DEFAULT_luci-app-ssr-plus=y
 CONFIG_DEFAULT_luci-app-turboacc=y
 CONFIG_DEFAULT_luci-app-upnp=y
-CONFIG_DEFAULT_luci-app-vlmcsd=y
+CONFIG_DEFAULT_luci-app-openclash=y
+# CONFIG_DEFAULT_luci-app-vlmcsd is not set
 CONFIG_DEFAULT_luci-app-vsftpd=y
-CONFIG_DEFAULT_luci-app-wol=y
-CONFIG_DEFAULT_luci-newapi=y
+# CONFIG_DEFAULT_luci-app-wol is not set
+# CONFIG_DEFAULT_luci-newap is not set
 CONFIG_DEFAULT_mkf2fs=y
 CONFIG_DEFAULT_mtd=y
 CONFIG_DEFAULT_netifd=y
